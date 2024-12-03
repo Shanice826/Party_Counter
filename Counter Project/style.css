@@ -1,0 +1,48 @@
+.parent-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('sean-sinclair-FQ7cRFUU1y0-unsplash.jpg');
+    background-size: cover;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-container{
+    height: 500px;
+    width: 500px;
+    background-color: ivory;
+    border-radius: 1%;
+}
+.title{
+    text-align: center;
+    font-family: 'Sour Gummy', 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: orange;
+    text-shadow: 1px 1px 2px rgb(66, 64, 64);
+}
+.counter{
+    display: flex;
+    justify-content: center;
+}
+#counter-display{
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+
+}
+.style-btn{
+    border: none;
+    background-color: orange;
+    color: white;
+    height: 3rem;
+    width: 5rem;
+}
